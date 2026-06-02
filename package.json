@@ -1,0 +1,9 @@
+{
+  "name": "pogodynka",
+  "version": "1.0.0",
+  "description": "Aplikacja pogodowa na laboratoria",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
