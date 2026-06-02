@@ -2,7 +2,7 @@ FROM node:22-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install -g npm@latest && npm install
-COPY server.js
+COPY server.js .
 
 FROM node:22-alpine
 LABEL org.opencontainers.image.authors="Jakub Mazur"
